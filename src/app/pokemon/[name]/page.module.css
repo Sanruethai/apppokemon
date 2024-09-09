@@ -1,0 +1,90 @@
+
+.container {
+  background-color: #F9F9F9; 
+  border: 1px solid #E0E0E0; 
+  width: 700px;
+  padding: 20px;
+  border-radius: 8px; 
+  font-family: "Arial", sans-serif;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.header-title {
+  color: #333;
+  font-size: 2.2em; 
+  margin-bottom: 20px;
+}
+
+
+.cardImgTop {
+  max-width: 240px;
+  border: 2px solid #B0B0B0; 
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #FFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin: 20px auto;
+  display: block;
+}
+
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 340px; 
+  border: 1px solid #E0E0E0; 
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #FFF;
+  color: #333;
+  text-align: center;
+}
+
+
+.stats strong {
+  font-size: 1.4em; 
+  margin-bottom: 12px;
+  color: #555;
+}
+
+
+.stats p {
+  margin: 6px 0;
+}
+
+
+.hp, .attack, .defense, .speed, .specialatt, .specialdef, .height, .weight {
+  font-size: 1em; 
+  line-height: 1.4;
+  color: #666;
+}
+
+
+.abilities {
+  margin-top: 20px;
+  max-width: 340px;
+  text-align: center;
+}
+
+
+.abilities strong {
+  font-size: 1.4em;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+
+.abilityItem {
+  margin: 6px 0;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #F0F0F0; 
+  color: #333;
+  font-size: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
